@@ -13,28 +13,44 @@
     height: 1200px;
   }
 
+  div {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+  }
+
   body>div :nth-child(1) {
     width: 300px;
     height: 500px;
-    background-color: bisque
+    background-color: bisque;
+    position: absolute;
+    left: 100px;
+    top: 200px;
   }
 
-  body> div > div:nth-child(2) {
+  body>div>div:nth-child(2) {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+  }
+
+  body>div>div:nth-child(3) {
     width: 300px;
     height: 200px;
-    background-color: aquamarine;
-  }
-
-  body> div > div:nth-child(3) {
-    width: 300px;
-    height: 100px;
     background-color: cadetblue;
+    top :550px;
+    left: 300px;
   }
 
-  body>div> div:nth-child(4) {
-    width: 200px;
-    height: 400px;
+  body>div>div:nth-child(4) {
+    width: 250px;
+    height: 350px;
     background-color: thistle;
+    top : 400px;
+    left : 800px;
   }
 </style>
 
