@@ -46,7 +46,14 @@
   }
   .box { width: 30%;
   height: 90%; 
-  border: 1px solid black}
+  border: 1px solid black;
+  display: grid;
+  grid-template-areas: 'a a'
+  'c d'
+  'e e';
+  grid-template-columns: 2;
+  grid-template-rows: 3;
+  }
 </style>
 
 <body>
@@ -67,18 +74,18 @@
         <div id="e">5</div>
       </div>
       <div class="box">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div id="a">1</div>
+        <div id="b">2</div>
+        <div id="c">3</div>
+        <div id="d">4</div>
+        <div id="e">5</div>
       </div>
       <div class="box">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div id="a">1</div>
+        <div id="b">2</div>
+        <div id="c">3</div>
+        <div id="d">4</div>
+        <div id="e">5</div>
       </div>
     </main>
   </div>
